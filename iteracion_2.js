@@ -1,7 +1,5 @@
-/* 
-EJERCICIO 2: (NOTION)
-Comprueba en cada uno de los usuarios que tenga al menos dos trimestres aprobados y añade la propiedad isApproved a true o false en consecuencia. Una vez lo tengas compruébalo con un console.log.
-*/
+/* EJERCICIO 2: (NOTION)
+Comprueba en cada uno de los usuarios que tenga al menos dos trimestres aprobados y añade la propiedad isApproved a true o false en consecuencia. Una vez lo tengas compruébalo con un console.log.*/
 console.log('Ejercicio 2:');
 let isApproved = false;
 const alumns = [
