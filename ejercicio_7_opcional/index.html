@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de datos de toysMap</title>
+    <link rel="stylesheet" href="/ejercicio_7_opcional/styles.css">
+    <script src="/ejercicio_7_opcional/datos.js"></script>
+</head>
+<body>
+    <table class="tabla_juguetes">
+        <tr>
+            <th><h3>Vendidos</h3></th>
+            <th><h3>Nombre del Juguete</h3></th>
+            <th><h3>ID</h3></th>
+        </tr>
+        <tr>
+            <td id="rowAcolA"></td>
+            <td id="rowAcolB"></td>
+            <td id="rowAcolC"></td>
+        </tr>
+        <tr>
+            <td id="rowBcolA"></td>
+            <td id="rowBcolB"></td>
+            <td id="rowBcolC"></td>
+        </tr>
+        <tr>
+            <td id="rowCcolA"></td>
+            <td id="rowCcolB"></td>
+            <td id="rowCcolC"></td>
+        </tr>
+    </table>
+
+    <!-- miro en chatGPT para conectar los datos con el archivo html, colocando todos los getElementById en el archivo.js no me funciona -->
+    <script>
+        document.getElementById("rowAcolA").textContent = rowAcolA;
+        document.getElementById("rowAcolB").textContent = rowAcolB;
+        document.getElementById("rowAcolC").textContent = rowAcolC;
+        document.getElementById("rowBcolA").textContent = rowBcolA;
+        document.getElementById("rowBcolB").textContent = rowBcolB;
+        document.getElementById("rowBcolC").textContent = rowBcolC;
+        document.getElementById("rowCcolA").textContent = rowCcolA;
+        document.getElementById("rowCcolB").textContent = rowCcolB;
+        document.getElementById("rowCcolC").textContent = rowCcolC;
+    </script>
+
+</body>
+</html>

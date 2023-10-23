@@ -1,0 +1,30 @@
+
+.tabla_juguetes{
+    caption-side: top;
+    border: black 5px solid;
+    table-layout: auto;
+    border-collapse: collapse;
+    border-spacing: none;
+    width: 500px;
+    height: 200px;
+}
+
+.tabla_juguetes th{
+    border: black 3px solid;
+}
+.tabla_juguetes th h3{
+    margin: 2px;
+    padding: 2px;
+}
+
+.tabla_juguetes td{
+    border: black 1px solid;
+}
+.tabla_juguetes td{
+    margin: 2px;
+    padding: 2px;
+}
+
+tr:hover{
+    background-color: rgba(0, 255, 140, 0.704);
+}
